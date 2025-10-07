@@ -58,7 +58,6 @@ header p {
 .card {
   background: #000;
   border: 2px solid var(--gray-color);
-  /* padding: 0.75rem; */
   text-align: center;
   transition: all 0.5s ease;
   cursor: pointer;
@@ -75,20 +74,19 @@ header p {
 .card img {
   width: 100%;
   object-fit: contain;
-  margin-bottom: 15px;
+vertical-align: middle;
 }
 /* Overlay styling */
 .card-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.95);
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   opacity: 0;
-  transition: opacity 0.4s ease;
   text-align: center;
   padding: 1rem;
   transition: opacity 0.4s ease;
