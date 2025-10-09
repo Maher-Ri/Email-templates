@@ -108,6 +108,7 @@ vertical-align: middle;
   margin-bottom:0.6rem;
   transform: translateY(20px);
   transition: transform 0.4s ease;
+  text-transform: uppercase;
 }
 
 .card p {
